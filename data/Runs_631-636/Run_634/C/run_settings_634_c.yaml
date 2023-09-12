@@ -1,0 +1,36 @@
+continueOn: Y
+delta: 35
+displayPlots: true
+graphicalAnalysis: false
+numOfRanges: 1
+numOfTimeBinsToAvg: 5
+peakChannel: 1000
+peakEnergy: 5.3
+peakFunctions:
+- function: G
+  guess: 804
+  guessHour: -1
+  rangeHigh: 164
+  rangeLow: 0
+regionsOfInterest:
+- 4.96
+- 5.64
+- 5.66
+- 6.34
+- 7.36
+- 8.04
+removeIntervals: n
+runNum: 634
+runType: true
+backgroundMax: 20.0
+backgroundMin: 0.1
+sampleMax: 16.0
+sampleMin: 10.0
+stepSize: 0.01
+dataStartTime: 2020-10-02 16:10
+emanationStartTime: 2020-09-09 14:05
+postBackgroundRun: []
+preBackgroundRun: []
+smallOrLarge: 0
+transferStartTime: 2020-10-02 14:15
+
