@@ -1,0 +1,2 @@
+make main.py output a graph with gain correction peaks in green, but also include 
+bad intervals in the graph. 
