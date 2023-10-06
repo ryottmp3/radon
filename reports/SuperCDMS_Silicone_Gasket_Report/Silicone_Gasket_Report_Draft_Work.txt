@@ -1,0 +1,39 @@
+Silicone Gasket Report
+
+P.2 how many? ✅️
+
+
+P.3 indicate inference of average emanation of 4 gaskets used, and resulting plate out expected ✅️
+
+
+p.4 refer to backup slide ✅️
+
+
+p.7 significantly higher... if all gaskets identical (rather than footnote at end) ✅️
+
+
+p.11 Variation of 3 runs is larger than expected from statistical uncertainties.  Note the 3 results; we likely should list systematic uncertainty as sigma of the 3 results / sqrt(2).  (And wonder whether this deviation is bug or indication of systematic in transfer efficiency) [3.6->5.4->4.1] -- big sigma or little sigma? ✅️
+
+p.19 (similar to p.11) ✅️
+p.19 SDSMT Particle Astrophysics Facility ? ✅️ -- My memory fails me lmfao
+
+
+p.20 definitely suspicious that rate/gasket is inversely proportional to the number of gaskets measured.  We might want to test this again. -- how so? -- EMANATE AGAIN ❓️ I can't fix it
+
+
+p.21 Text must be made much larger.  I would copy more of the formatting of the old plot. ✅️
+
+
+p.24-6.  Lose tables.  Start with diagram (use sketch) to illustrate what the 3 models are (add colors to help people understand the 3 models). [Always give people the big picture to understand the main ideas before going into the details of the calculation.] Then calculate.
+
+
+p.26 Model 3: detectors have 10% of stack surf area (just typo on line 3 of slide that says 3% again?) ✅️
+
+
+p.27 Total (4 gaskets) does not make sense. ✅️
+
+
+p.27 cm^2 not m^2 ✅️
+
+
+p.27 Compare final results to SuperCDMS estimate of 25 nBq/cm^2
