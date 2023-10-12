@@ -24,7 +24,7 @@ p.20 definitely suspicious that rate/gasket is inversely proportional to the num
 p.21 Text must be made much larger.  I would copy more of the formatting of the old plot. ✅️
 
 
-p.24-6.  Lose tables.  Start with diagram (use sketch) to illustrate what the 3 models are (add colors to help people understand the 3 models). [Always give people the big picture to understand the main ideas before going into the details of the calculation.] Then calculate.
+p.24-6.  Lose tables.  Start with diagram (use sketch) to illustrate what the 3 models are (add colors to help people understand the 3 models). [Always give people the big picture to understand the main ideas before going into the details of the calculation.] Then calculate. ✅️
 
 
 p.26 Model 3: detectors have 10% of stack surf area (just typo on line 3 of slide that says 3% again?) ✅️
