@@ -1,0 +1,166 @@
+% In this document, I aim to outline a general proposal for a test of the 
+% temperature dependence of gain variations in the Warm Radon Emanation System.
+\documentclass[letterpaper,12pt]{article}
+\usepackage[margin=1.0in]{geometry}
+
+
+\title{A Proposal to Investigate Temperature Effects on the SD Mines
+Warm Radon Emanation System}
+\author{H. Ryott Glayzer \\
+    Lab Assistant \\
+    SD Mines \\ 
+    \and
+    Dr. Joseph Street \\
+    Post-Doctoral Fellow \\
+    SD Mines\\
+    }
+\date{\today}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+    Presented is an informal proposal to conduct testing on SD Mines' unique
+    radon emanation system, which has experienced persistent gain shifts,
+    potentially linked to temperature variations.
+    The aim is to investigate the temperature dependence of this system through
+    extensive temperature monitoring and
+    controlled experiments in varying temperature conditions while monitoring
+    for gain shifts.
+    These experiments include monitoring with a microcontroller and 
+    temperature sensor as well as applying temperature in individual 
+    components to observe the relationship between temperature change and 
+    gain shift.
+    The observed relationship between temperature fluctuations
+    and gain shifts will inform potential strategies for temperature
+    compensation and system improvement.
+    The ultimate goal is to enhance the accuracy and reliability of this radon
+    emanation system, benefiting applications in radon measurement and
+    alpha particle detection, and contributing to dark matter experiments
+    where maintaining low radon backgrounds is essential for precise data collection.
+\end{abstract}
+
+\paragraph*{Motivation for Gain Shift Analysis}
+In the realm of particle physics and the pursuit of a deeper understanding of
+the great cosmos, the accurate and reliable measurement of radiological 
+backgrounds plays a pivotal role.
+A critical challenge in this endeavor is ensuring the reliability and precision
+of detection systems. 
+One such challenge has manifested in the form of persistent gain modulation
+observed within the Warm Radon Emanation System at the South Dakota
+School of Mines and Technology (SD Mines). 
+This gain modulation has raised concerns on the reliability of data-taking, as 
+it is so prominent at times that it renders important assay data unable to be
+corrected and analyzed. 
+
+\paragraph*{Hypothesis and Proposal}
+The gain shift issue at SD Mines has proved elusive to resolution, prompting the
+need for a comprehensive investigation. 
+This paper outlines a proposal to delve into the potential temperature 
+dependence of the gain shifts observed in the SD Mines Warm Radon Emanation 
+System.
+The hypothesis driving this investigation is that circadian temperature
+variations may be a contributing factor in persistent gain shifts.
+One facet of this investigation consists of an arduino setup to closely monitor 
+temperature variations near the Warm Radon Emanation System, and analyzing this
+data against the gain variations in concurrent experiments.
+The second facet of this investigation consists of a minimally invasive test 
+to test individual parts of the Warm Radon Emanation System setup for sensitivity
+to temperature variation. 
+The methods for these investigations will be expanded upon further later in 
+this paper.
+By exploring and analyzing temperature dependence, it is hoped that the team at 
+SD Mines will be able to mitigate these gain shifts and improve stability and
+reliability in the Warm Radon Emanation System.
+
+\paragraph*{Objectives}
+This investigation will address a problem that has persisted throughout the 
+data-taking lifespan of the Warm Radon Emanation System. 
+The recent development and testing of the Cryogenic Radon Emanation System at 
+SD Mines, which is similar in construction to the Warm Radon Emanation System,
+has indicated that there is a specific problem with the Warm Radon Emanation System, likely due to a 
+specific component of the Warm Radon Emanation System possesing a defect not before 
+recognized. This investigation aims to identify the component that posseses 
+a specific sensitivity to temperature and mitigate gain shift issues in the Warm Radon Emanation System.
+
+\paragraph*{Methods to Monitor General Temperature Dependence} 
+The first method proposed to investigate temperature dependence in the Radon 
+Emanation System consists of an Arduino Microcontroller setup near the detector 
+to monitor the general temperature of the Emanation System. 
+This dedicated monitor will provide a more accurate measurement of the 
+temperature of the Warm Radon Emanation System than the monitor on the Tabletop
+System, as it will be able to monitor temperature changes from the exhaust of 
+the Radon Mitigation System, as well as avoid the artifical temperature spike 
+observed in the Tabletop System caused by direct contact with sunlight.
+In early October 2023, Dr. Joseph Street placed an Adafruit order for a Metro
+M7, an Arduino-like microcontroller, and a DHT20 Temperature and Relative 
+Humidity Sensor. 
+This sensor and microcontroller will be programmed using CircuitPython to 
+measure and record ambient temperature near the Warm Radon Emanation System once every
+minute. 
+This data will be recorded to a local microSD card as a CSV file, and 
+transferred to a special directory in the pythonrnemanationanalysis repository 
+on Bison when run data is transferred.
+The monitor will be run concurrently with each emanation run, and will also take
+data when the emanation system isn't taking data.
+The Warm Radon Emanation System will also be modified to take data in five minute 
+bins, in order to ensure a more detailed gain shift profile and aid in the 
+analysis of the relationship between temperature and variations in gain.
+The goal of this temperature monitor is to determine more definitively that the
+apparent periodic modulation in gain shift is correlated with temperature.
+
+\paragraph*{Methods to Determine Specific Temperature Dependence}
+The second method proposed to investigate temperature dependence in the Radon 
+Emanation System is much more direct. 
+The method proposed consists of utilizing a heat gun to slightly warm specific 
+components of the Warm Radon Emanation System while taking data in 15-second bins to 
+further investigate the cause of the suspected temperature dependence.
+This would require the use of a source with a radon emanation rate of at least 
+1 Bq in order to have enough data points to reliably determine if gain shift 
+occurs.
+Each component will be lightly heated with a heat gun, with a hand near the part
+to ensure that it isn't being heated to a point that it might sustain damage.
+Components will be held at an increased temperature for three to five minutes in
+order to reliably determine in gain shift occurs. 
+This will be logged extensively, utilizing the Metro M7 microcontroller near 
+the heated component to provide a temperature profile that will be used in 
+analysis. 
+It is hoped that this investigation will provide further insights into the 
+component that is causing the gain shift problem, and will inform potential 
+strategies for temperature compensation and system imrovement.
+
+\paragraph*{Potential Hazards and Risk Mitigation Methods}
+It is recognized that the methods outlined in this proposal may carry some risks.
+First, the use of a radon source necessarily carries radiological risks. 
+All laboratory standards regarding the use of a radioactive source will be
+followed.
+Second. heating components with a heat gun may carry the risk of sustained damage.
+To mitigate this risk, the Metro M7 microcontroller and an experimentalist's
+hand will be used to ensure the change in temperature of the component is not 
+dramatic enough to pose a hazard to any components.
+
+\paragraph*{Summary of Proposal}
+Proposed are two methods to further investigate the gain shift issue in the 
+Warm Radon Emanation System at SD Mines.
+The first method consists of a passive ambient temperature monitoring system.
+The data acquired through this method will enable the team at SD Mines to further
+investigate the relationship between ambient temperature and variations in the 
+gain of the system.
+The second method consists of the direct application of heat to specific components
+as an exploratory measurement of temperature dependence within the Warm Emanation 
+System.
+The data acquired through this method will inform potential strategies for 
+temperature compensation, system improvement, and potential component replacement.
+Overall, it is hoped that this investigation will enable the team at SD Mines
+to further improve the Warm Radon Emanation System and provide a more reliable 
+measurement of the Radon Emanation rates of materials utilized in the search for
+particle dark matter.
+
+
+
+
+
+
+
+\end{document}

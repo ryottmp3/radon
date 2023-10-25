@@ -1,0 +1,122 @@
+%preamble
+\documentclass[letterpaper, 12pt]{article}
+\usepackage[margin=0.875in]{geometry}
+
+
+
+\begin{document}
+
+% title info
+\title{NOVA Shield Analysis Notes}
+\author{H. Ryott Glayzer}
+\date{\today}
+\maketitle
+
+\section{Run 679}
+\subsection{Analysis A}
+Analysis A was performed at an earlier time and is considered to be incomplete.
+
+\subsection{Analysis B}
+Raw data exhibits poor $^{210}$Po-$^{218}$Po resolution, yet barely has any 
+low-energy noise. Gain Correction will be performed using $^{214}$Po peak line.
+Upon first inspection, there do not appear to be any 'bad intervals' that need 
+to be removed. Gain correction will be done with the guess function.
+
+GC Settings: (G, 0, 189, 238);(1453, 7.7, 25, 5)
+
+First GC shows very poor resolution, which was expected, and events do not 
+neatly fall into ROI, but it appears that there will not be a better alternative
+.
+
+Counts vs Energy shows very large number of 214/218 events, as well as large ROI
+'bleed-over' the Po-218 rate will not be reliable for this run.
+
+NLL Range for next run: (4,8)
+
+Rate vs time indicates a Po-214 rate of 5.10 $\pm$ 0.26 mBq, which is likely 
+a low estimate due to the amount of 'spill-over' from the Po-214 ROI.
+Po-214 indicates a $\chi$$^{2}$/dof value of 12.25/15 and a 
+\textit{p}-value of 0.6602, which indicates that this model is likely a good fit
+to the data taken. 
+However, there would be room for improvement if the resolution could be 
+increased.
+Po-218 indicates a rate of 6.09 $\pm$ 0.29 mBq, but this is artificially high 
+due to 'spill-over' from Po-210.
+
+Po-210 Rate vs. Time indicates a rate of ~78 cpd, which is consistent with other
+runs, indicating that there are likely on major systemic issues going on.
+However, there are 5 bins that are more than 1$\sigma$ away from the mean,
+indicating that those bins shuld be looked at closer.
+
+Remaining plots (Residuals, Expected vs Measured) did not exhibit any issues.
+
+\subsection{Analysis C}
+Analysis C will aim to refine the values of the emanation rates, as well as 
+further investigate the Po-210 bins that are more than one $\sigma$ from the 
+mean rate. Analysis wil be done by modifying the run settings file rather than
+running a manual run again.
+
+New NLL Settings: (4.0, 8.0)
+
+Rate vs Time plot now indicates a Po-214 rate of 5.09 $\pm$ 0.26 mBq, a 
+$\chi$$^{2}$/dof value of 12.26/15, and a \textit{p}-value of 0.6589. This
+indicates a good fit to the data. The Po-218 ROI has too much 'spill-over' from
+Po-210 events to be considered reliable data.
+\newline
+
+\begin{center}
+\textbf{$^{222}$Rn Emanation Rate for Run 679: 5.09 $\pm$ 0.26 mBq}
+\end{center}
+
+\section{Run 681}
+\subsection{Analysis A}
+Run 678 exhibits extreme gain variation and may be unusable for analysis purposes.
+After meeting with Dr. Schnee, a decision was made to remove ~50\% of the data 
+hours due to the hours not containing gain-correctable data.
+
+
+\textbf{Bad Intervals:}
+[(0,5),(18,56),(92,153),(163,210)]
+
+\textbf{Gain Correction Settings:}
+[(G, 0, 57, 900), (1453, 7.7, 35, 5)]
+
+After gain correction, data is usable and beautiful.
+
+Counts vs Time is indicative of great resolution and high Polonium decay rates.
+
+NLL plots suggest a later setting of (4, 8)
+
+Rate vs Time indicates a Po-214 Rate of 5.92 $\pm$ 0.45 mBq, and a Po-218 rate 
+of 4.94 $\pm$ 0.44 mBq. These rates will be further refined in Analysis B. 
+Po-210 Rate vs time indicates a rate of ~96 cpd, which is a bit high, but likely
+still in the normal range for our emanation. The last bin varies more than 1$/sigma$
+from tho mean, and this may indicate a need for further investigation.
+
+Residuals and Expected vs Measured plots reflect findings in earlier plots.
+
+\subsection{Analysis B}
+Analysis B will aim to refine the values of the emanation rates, as well as 
+further investigate the Po-210 bins that are more than one $\sigma$ from the 
+mean rate. Analysis wil be done by modifying the run settings file rather than
+running a manual run again.
+
+New NLL settings: (3.0, 8.0)
+
+Rate vs Time Plot now indicates a Po-214 rate of 5.91 $\pm$ 0.45 mBq, a 
+$\chi$$^{2}$/dof value of 2.06/4 and a \textit{p}-value of 0.7238. This indicates
+that the model is a good fit to the data. Po-218 exhibits a rate of 4.94 $\pm$ 
+0.44 mBq, a $\chi$$^{2}$/dof value of 1.49/4, and a \textit{p}-value of 0.8287, 
+which indicates a slightly worse, albeit still good fit to the data. These rates
+combine to a weighted mean of 5.41 $\pm$ 0.48 mBq. Po-210 rate was similar to 
+analysis A and raised no concerns.
+\newline
+
+\begin{center}
+\textbf{Rn Emanation Rate for Run 681: 5.41 $\pm$ 0.48 mBq}
+\end{center}
+
+\section{Conclusions}
+399 data hours were taken, and 246 data hours were usable. Those data hours 
+indicate a mean $^{222}$Rn emanation rate of 5.16 $\pm$ 0.22 mBq.
+\end{document}

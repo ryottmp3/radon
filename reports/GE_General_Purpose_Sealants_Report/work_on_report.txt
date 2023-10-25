@@ -1,0 +1,12 @@
+Hi Ryott,
+
+Thanks for the preliminary report.
+
+Joseph (cc’d) should be able to provide you with the exact sizes of the samples, and he or James (also cc’d) should be able to provide photos.
+
+I look forward to seeing the additional backup plots.
+
+I was under the impression that the code can be made to apply the likelihood to the combines 218Po + 214Po, rather than merely using the weighted mean.  Are you able to do that (or is that what you did)?
+
+Thanks,
+Dr. Schnee

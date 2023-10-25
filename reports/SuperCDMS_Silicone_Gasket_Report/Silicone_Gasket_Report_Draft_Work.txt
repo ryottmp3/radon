@@ -37,3 +37,88 @@ p.27 cm^2 not m^2 ✅️
 
 
 p.27 Compare final results to SuperCDMS estimate of 25 nBq/cm^2
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Hi Ryott,
+
+This is a nice draft.  I have a bunch of detailed, minor suggestions below along with some that are substantive.
+
+p.2 I suggest dropping the word “credit” as unneeded ✅️
+p.2 change “the shippng/storage containers” to “each shipping/storage container” ✅️
+
+p.3 change "indicated a total emanation rate of 35 ± ? mBq“ to “suffered from bug in code (since fixed) and suggested total emanation rate ~ 35 mBq”. [we want to make clear that the old number was wrong, and we don’t want to suggest it was Nic’s fault] ✅️
+p.3 change “indicates” to “suggests” or “implies" [since we haven’t quite done the direct test of the same number of gaskets emanated and compared to each other, and some systematic effect might be causing the results for more gaskets emanated together to give lower values] ✅️
+p.3 change "and a 210Pb plate-out rate“ to “resulting in a 210Pb-equivalent plate-out rate onto the detectors of"
+[important to make clear to the audience what this plate-out is onto!  And the 210Pb isn’t what is plating out, it is what is there after the plate-out is done]✅️
+p.3 Since we cannot infer the rate you list without subtracting the results from the other 6 gaskets, I think it is clearer to move the sub-bullet "Assuming that these four gaskets …” to the very end, rewording slightly to “Assuming that the four SLAC gaskets…”. This also has the benefit of putting the most important info right at the end.  I also suggest cutting “it can be inferred that"✅️
+
+p.4 Move after p.5✅️
+p.4 Refer to slides 46-55 (not 45-) and add hyperlink to p.46✅️
+
+Some concerns on the analysis of run 636:
+1) Gain correction is done on 214, and 214 has excess in center bin, which is what happens if we over-correct.  I think we changed the algorithm so we shouldn’t be able to over-correct but we should check on this.  I think FWHM is also smaller for 214 than 218&210, based on percentage in ROI.
+2) Concentration inferred form 214 is significantly higher than that from 218. Are we correcting our results for % in ROI and for expected 210Po leaking into 218 (we should be)?  It would be good to list these numbers in any case, for a consistency check.  For this data, there is more 218Po outside the ROI than 210Po inside the ROI, which might be causing the 218Po to be lower than the 214Po.  Alternatively, outgassing of electropositive contaminants may have lowered the 218Po collection efficiency (and possibly the 214Po collection efficiency as well, potentially a cause of more gaskets resulting in a lower inferred radon/gasket).
+
+In principle, we can take the percentage in ROI from the histograms (p. 49) along with the measured average rate of Po-210 to add the (constant and known) Po-210 rate to the fit vs. time of the 218-Po.  We should discuss making this change to the code at our meeting on Monday.
+
+Related to this, the leaking of 218Po into the 210Po ROI will cause an apparent time dependence to the 210Po rate (slide 54).  We can add this contribution to the data when it is significant (only true for quite large radon results).
+
+
+p.5 2nd sub-bullet, change to “indicates an average single-gasket…” [since the uncertainty on any given gasket is much larger since they likely are not all the same]
+p.5 At end of bullet on run 634, add ("see pp. 36-45”) and add hyperlink to slide 36 (and remove “see next slide” from sub-bullet)
+p.5 At end of bullet on run 631, add ("see p. 35”) and/or add hyperlink to later slide
+p.5 cut “Nic … avail"
+
+p.6 Move to backup slides (After slide 43, which you should move to be first after slide 36)
+p.6 Change text to be specific to the problem and why we expect sample was lost — (get details from log book and/or Nic’s old note; I expect the story is close to what I write below) when transferring from the warmed large trap to the cooled small trap, pressure increasing significantly, indicating a clog in the small trap.  The small trap was isolated, warmed, and pumped down (?), so any radon that had already passed the valve between the two traps was removed, before continuing with the rest of the transfer.
+
+p.7 Move “Single silicone gasket (kept at Mines) was emanated four times” to end of bullet above (and same for “Two…” and ”Three”)
+p.7 Add sub-bullet with run numbers used and explanation of run number not used.
+p.7 has uncertainty for 1-gasket measurement listed as 0.16, whereas p.11 says 0.74.  Similar for 3- gasket.  Change and propagate to results for 6 gaskets and inference for the 4 sent to SLAC (change on p.2 and p.20,
+
+p.8 Refer/hyperlink to slide 56-65
+p.9 refer/hyperlink 66- 75
+p.10 refer/hyperlink 76 - 85
+
+p.11 Explain how mean value and 0.74 uncertainty was determined
+p.11 refer/hyperlink from run 660 to slides 86-94
+p.11 Change to “This gasket is at SD Mines” (and say where if you know).
+
+p.12 Refer/hyperlink to slides 95-104
+p.12 Refer/hyperlink to slides 105-114
+p.14 List the two individual values as well here.
+
+p.15  Refer/hyperlink to run 671 slides 125-134
+p.16  Text says result is based on 214Po.  Based on both, right?  Uses NLL, not weighted average, right?
+p.16 Refer/hyperlink to run 673 slides 135-144
+p.17  Refer/hyperlink to run 675 slides 145-154
+p.18  Refer/hyperlink to run 677 slides 155-164
+p.19 List the 4 measurements here.
+p.19 This measurement is within 1 sigma…. Cut the sub-bullet “This doesn’t…”
+
+We should discuss how the individual runs don’t agree with each other within uncertainties.
+
+p.20 Change to “And an average single emanate rate” and cut the sub-bullet.
+p.20 Add info on gasket dimensions from p. 22, add ref. And hyperlink to pp. 30-32, and cut p. 22 (need the info for the third column of the table)
+
+p.23 comprises of —> results in
+p.23 Cite Ray’s note.
+
+I will give you comments on slides 24-28 later (we can discuss).
+
+p.50-52 (and similar for many others) We should change the code to zoom in more on the results.  3sigma is delta NLL = 4.5.
+We should plot NLL out only to ~ 25 above its minimum (not our current ~200), and we should plot the sample range only for where this curve is shown.
+
+I also think it would probably work to put all 3 of these curves on the same axes (in different colors/linetypes), with the y-axis delta NLL (so it starts from zero for the best fit).  The dashed lines from the side are the same for all 3.  I am not sure how easily we would make visible the 3 error bars for each curve.
+
+We should discuss making these changes at our meeting Monday.
+
+I am also worried that the 210Po rate vs. time (over multiple runs) doesn’t seem consistent.  Someone should take a look at that.
+
+The plots of gain corrections do not show the times removed; we should change that, as “Time since data start” is otherwise incorrect.
+
+p.122 Title says Run 666 not 668.
+
