@@ -1,0 +1,43 @@
+need to completely rewrite updateData.py in order to ensure that it is 
+performing correctly. -- done 2023-11-07 
+
+currently, i am unsure if it is parsing the correct data. -- fixed 2023-11-07
+
+update working branch with data from bison.sdsmt.edu
+
+make sure updateData.py is hardcoded to check and update both wes and ces 
+each time main is run. -- fixed 2023-11-07
+
+updateData will be coded to parse through each part name for the rebin
+routine. -- fixed 2023-11-07
+
+
+
+
+
+###issues analysis###
+
+
+why are RawSet*** all 'Run 11'
+	im an idiot, that's why
+	the raw_name was actually dir_name
+
+how to compare sets now
+    using for-loop comparison
+
+
+
+#############################################################################
+
+2023-11-07
+
+update the branch with run data from bison.sdsmt.edu
+
+clean up code (remove print statements, restructure for clarity)
+
+write the updateData call as a separate function that is called before main() in main.py
+
+dummy check that everything works
+
+create a merge request
+
