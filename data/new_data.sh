@@ -17,7 +17,7 @@ then
 	read runNum
 	echo "Making directory Run_$runNum "
 	mkdir Run_$runNum
-	mkdir Run_$runNum/a
+	mkdir Run_$runNum/A
 	echo "Done. "
 elif [ $sinRan == "range" ] || [ $sinRan == "Range" ]
 then
@@ -32,7 +32,7 @@ then
 	do
 		echo "Creating directory Run_$num and subdirectories. "
 		mkdir Run_$num
-		mkdir Run_$num/a
+		mkdir Run_$num/A
 	done
 	echo "Done. "
 else
