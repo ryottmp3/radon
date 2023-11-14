@@ -31,13 +31,11 @@ how to compare sets now
 
 2023-11-07
 
-update the branch with run data from bison.sdsmt.edu
+clean up code (remove print statements, restructure for clarity) -- fixed 2023-11-07
 
-clean up code (remove print statements, restructure for clarity)
+write the updateData call as a separate function that is called before main() in main.py -- fixed 2023-11-07
 
-write the updateData call as a separate function that is called before main() in main.py
-
-dummy check that everything works
+dummy check that everything works -- done 2023-11-07
 
 create a merge request
 
