@@ -7,7 +7,7 @@
 \usepackage{titling}   % For customizing the title
 \usepackage{amsmath}   % For math symbols and equations
 \usepackage{graphicx}
-\graphicspath{ {./} }
+\graphicspath{{./}}
 % Set page margins
 \geometry{margin=1in}
 
@@ -79,5 +79,39 @@ po-210 leakage.
 \begin{figure}
 	\includegraphics[scale=0.4]{Expected_compared_to_Measured_218_Run_733_C.png}
 \end{figure}
+
+
+\section*{Third Analysis}
+\textbf{\$RNDATA/Run\_733/D}
+
+Changed hours removed[2] to (286,294) to try to alleviate noise interference with 
+rate calculation.
+It did not appear to improve anything.
+
+\section*{Fourth Analysis}
+\textbf{Folder E}
+
+narrowed down the NLL settings to a range of (0.001,0.5)
+
+
+The outlier bin around day 10 hasn't changed. Looking at the Gain-corrected
+Energy vs. Time plot, there is no obvious noise intereference, and it appears
+that the Radon just decayed at that point
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \end{document}
