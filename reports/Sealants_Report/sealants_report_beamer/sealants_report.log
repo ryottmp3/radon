@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.10.12)  11 DEC 2023 15:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Arch Linux) (preloaded format=pdflatex 2023.10.12)  11 DEC 2023 16:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1160,339 +1160,623 @@ Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 102.
  <./assets/720/RvT.png>]
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 112.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 114.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
  [9
 
 ]
-<assets/721/RvT.png, id=83, 1387.584pt x 704.6325pt>
+<assets/721/RvT.png, id=85, 1387.584pt x 704.6325pt>
 File: assets/721/RvT.png Graphic file (type png)
 <use assets/721/RvT.png>
-Package pdftex.def Info: assets/721/RvT.png  used on input line 123.
+Package pdftex.def Info: assets/721/RvT.png  used on input line 126.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (28.5981pt too high) detected at line 123
+Overfull \vbox (28.5981pt too high) detected at line 126
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 123.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 126.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [10
 
  <./assets/721/RvT.png>]
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 133.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 135.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
  [11
 
 ]
-<assets/722/RvT.png, id=95, 1387.584pt x 704.6325pt>
+<assets/722/RvT.png, id=100, 1387.584pt x 704.6325pt>
 File: assets/722/RvT.png Graphic file (type png)
 <use assets/722/RvT.png>
-Package pdftex.def Info: assets/722/RvT.png  used on input line 144.
+Package pdftex.def Info: assets/722/RvT.png  used on input line 147.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (28.5981pt too high) detected at line 144
+Overfull \vbox (28.5981pt too high) detected at line 147
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 144.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 147.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [12
 
  <./assets/722/RvT.png>]
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 150.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 153.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
  [13
 
 ]
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 155.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 158.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
  [14
 
 ]
-<assets/717/RD.png, id=113, 1387.584pt x 704.6325pt>
+<assets/717/RD.png, id=119, 1387.584pt x 704.6325pt>
 File: assets/717/RD.png Graphic file (type png)
 <use assets/717/RD.png>
-Package pdftex.def Info: assets/717/RD.png  used on input line 165.
+Package pdftex.def Info: assets/717/RD.png  used on input line 168.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 165
+Overfull \vbox (26.95996pt too high) detected at line 168
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 165.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 168.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [15
 
  <./assets/717/RD.png>]
-<assets/717/RDP.png, id=120, 1387.584pt x 704.6325pt>
+<assets/717/RDP.png, id=126, 1387.584pt x 704.6325pt>
 File: assets/717/RDP.png Graphic file (type png)
 <use assets/717/RDP.png>
-Package pdftex.def Info: assets/717/RDP.png  used on input line 175.
+Package pdftex.def Info: assets/717/RDP.png  used on input line 178.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 175
+Overfull \vbox (26.95996pt too high) detected at line 178
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 175.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 178.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [16
 
  <./assets/717/RDP.png>]
-<assets/717/CD.png, id=127, 1387.584pt x 704.6325pt>
+<assets/717/CD.png, id=133, 1387.584pt x 704.6325pt>
 File: assets/717/CD.png Graphic file (type png)
 <use assets/717/CD.png>
-Package pdftex.def Info: assets/717/CD.png  used on input line 185.
+Package pdftex.def Info: assets/717/CD.png  used on input line 188.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 185
+Overfull \vbox (26.95996pt too high) detected at line 188
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 185.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 188.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [17
 
  <./assets/717/CD.png>]
-<assets/717/CvE.png, id=134, 1387.584pt x 704.6325pt>
+<assets/717/CvE.png, id=140, 1387.584pt x 704.6325pt>
 File: assets/717/CvE.png Graphic file (type png)
 <use assets/717/CvE.png>
-Package pdftex.def Info: assets/717/CvE.png  used on input line 195.
+Package pdftex.def Info: assets/717/CvE.png  used on input line 198.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 195
+Overfull \vbox (26.95996pt too high) detected at line 198
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 195.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 198.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [18
 
  <./assets/717/CvE.png>]
-<assets/717/comNLL.png, id=141, 1387.584pt x 704.6325pt>
+<assets/717/comNLL.png, id=147, 1387.584pt x 704.6325pt>
 File: assets/717/comNLL.png Graphic file (type png)
 <use assets/717/comNLL.png>
-Package pdftex.def Info: assets/717/comNLL.png  used on input line 205.
+Package pdftex.def Info: assets/717/comNLL.png  used on input line 208.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 205
+Overfull \vbox (26.95996pt too high) detected at line 208
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 205.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 208.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [19
 
  <./assets/717/comNLL.png>]
-<assets/717/NLL218.png, id=149, 1387.584pt x 704.6325pt>
+<assets/717/NLL218.png, id=155, 1387.584pt x 704.6325pt>
 File: assets/717/NLL218.png Graphic file (type png)
 <use assets/717/NLL218.png>
-Package pdftex.def Info: assets/717/NLL218.png  used on input line 215.
+Package pdftex.def Info: assets/717/NLL218.png  used on input line 218.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 215
+Overfull \vbox (26.95996pt too high) detected at line 218
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 215.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 218.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [20
 
  <./assets/717/NLL218.png>]
-<assets/717/NLL214.png, id=156, 1387.584pt x 704.6325pt>
+<assets/717/NLL214.png, id=162, 1387.584pt x 704.6325pt>
 File: assets/717/NLL214.png Graphic file (type png)
 <use assets/717/NLL214.png>
-Package pdftex.def Info: assets/717/NLL214.png  used on input line 225.
+Package pdftex.def Info: assets/717/NLL214.png  used on input line 228.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 225
+Overfull \vbox (26.95996pt too high) detected at line 228
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 225.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 228.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [21
 
  <./assets/717/NLL214.png>]
-<assets/717/LTE.png, id=163, 1387.584pt x 704.6325pt>
+<assets/717/LTE.png, id=169, 1387.584pt x 704.6325pt>
 File: assets/717/LTE.png Graphic file (type png)
 <use assets/717/LTE.png>
-Package pdftex.def Info: assets/717/LTE.png  used on input line 235.
+Package pdftex.def Info: assets/717/LTE.png  used on input line 238.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 235
+Overfull \vbox (26.95996pt too high) detected at line 238
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 235.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 238.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [22
 
  <./assets/717/LTE.png>]
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 247.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 250.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
  [23
 
 ]
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 252.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 255.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
  [24
 
 ]
-<assets/720/RD.png, id=182, 1387.584pt x 704.6325pt>
+<assets/720/RD.png, id=188, 1387.584pt x 704.6325pt>
 File: assets/720/RD.png Graphic file (type png)
 <use assets/720/RD.png>
-Package pdftex.def Info: assets/720/RD.png  used on input line 262.
+Package pdftex.def Info: assets/720/RD.png  used on input line 265.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 262
+Overfull \vbox (26.95996pt too high) detected at line 265
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 262.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 265.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [25
 
  <./assets/720/RD.png>]
-<assets/720/RDP.png, id=190, 1387.584pt x 704.6325pt>
+<assets/720/RDP.png, id=196, 1387.584pt x 704.6325pt>
 File: assets/720/RDP.png Graphic file (type png)
 <use assets/720/RDP.png>
-Package pdftex.def Info: assets/720/RDP.png  used on input line 272.
+Package pdftex.def Info: assets/720/RDP.png  used on input line 275.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 272
+Overfull \vbox (26.95996pt too high) detected at line 275
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 272.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 275.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [26
 
  <./assets/720/RDP.png>]
-<assets/720/CD.png, id=197, 1387.584pt x 704.6325pt>
+<assets/720/CD.png, id=203, 1387.584pt x 704.6325pt>
 File: assets/720/CD.png Graphic file (type png)
 <use assets/720/CD.png>
-Package pdftex.def Info: assets/720/CD.png  used on input line 282.
+Package pdftex.def Info: assets/720/CD.png  used on input line 285.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 282
+Overfull \vbox (26.95996pt too high) detected at line 285
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 282.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 285.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [27
 
  <./assets/720/CD.png>]
-<assets/720/CvE.png, id=204, 1387.584pt x 704.6325pt>
+<assets/720/CvE.png, id=210, 1387.584pt x 704.6325pt>
 File: assets/720/CvE.png Graphic file (type png)
 <use assets/720/CvE.png>
-Package pdftex.def Info: assets/720/CvE.png  used on input line 292.
+Package pdftex.def Info: assets/720/CvE.png  used on input line 295.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 292
+Overfull \vbox (26.95996pt too high) detected at line 295
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 292.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 295.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [28
 
  <./assets/720/CvE.png>]
-<assets/720/comNLL.png, id=211, 1387.584pt x 704.6325pt>
+<assets/720/comNLL.png, id=217, 1387.584pt x 704.6325pt>
 File: assets/720/comNLL.png Graphic file (type png)
 <use assets/720/comNLL.png>
-Package pdftex.def Info: assets/720/comNLL.png  used on input line 302.
+Package pdftex.def Info: assets/720/comNLL.png  used on input line 305.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 302
+Overfull \vbox (26.95996pt too high) detected at line 305
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 302.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 305.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [29
 
  <./assets/720/comNLL.png>]
-<assets/720/NLL218.png, id=218, 1387.584pt x 704.6325pt>
+<assets/720/NLL218.png, id=224, 1387.584pt x 704.6325pt>
 File: assets/720/NLL218.png Graphic file (type png)
 <use assets/720/NLL218.png>
-Package pdftex.def Info: assets/720/NLL218.png  used on input line 312.
+Package pdftex.def Info: assets/720/NLL218.png  used on input line 315.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 312
+Overfull \vbox (26.95996pt too high) detected at line 315
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 312.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 315.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [30
 
  <./assets/720/NLL218.png>]
-<assets/720/NLL214.png, id=225, 1387.584pt x 704.6325pt>
+<assets/720/NLL214.png, id=231, 1387.584pt x 704.6325pt>
 File: assets/720/NLL214.png Graphic file (type png)
 <use assets/720/NLL214.png>
-Package pdftex.def Info: assets/720/NLL214.png  used on input line 322.
+Package pdftex.def Info: assets/720/NLL214.png  used on input line 325.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 322
+Overfull \vbox (26.95996pt too high) detected at line 325
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 322.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 325.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [31
 
  <./assets/720/NLL214.png>]
-<assets/720/LTE.png, id=233, 1387.584pt x 704.6325pt>
+<assets/720/LTE.png, id=239, 1387.584pt x 704.6325pt>
 File: assets/720/LTE.png Graphic file (type png)
 <use assets/720/LTE.png>
-Package pdftex.def Info: assets/720/LTE.png  used on input line 332.
+Package pdftex.def Info: assets/720/LTE.png  used on input line 335.
 (pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
 
-Overfull \vbox (26.95996pt too high) detected at line 332
+Overfull \vbox (26.95996pt too high) detected at line 335
  []
 
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 332.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 335.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
 [32
 
  <./assets/720/LTE.png>]
 File: assets/SD_Mines_Logo.png Graphic file (type png)
 <use assets/SD_Mines_Logo.png>
-Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 345.
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 348.
 (pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
  [33
+
+]
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 353.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+ [34
+
+]
+<assets/721/RD.png, id=257, 1387.584pt x 704.6325pt>
+File: assets/721/RD.png Graphic file (type png)
+<use assets/721/RD.png>
+Package pdftex.def Info: assets/721/RD.png  used on input line 363.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 363
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 363.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[35
+
+ <./assets/721/RD.png>]
+<assets/721/RDP.png, id=264, 1387.584pt x 704.6325pt>
+File: assets/721/RDP.png Graphic file (type png)
+<use assets/721/RDP.png>
+Package pdftex.def Info: assets/721/RDP.png  used on input line 373.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 373
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 373.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[36
+
+ <./assets/721/RDP.png>]
+<assets/721/CD.png, id=271, 1387.584pt x 704.6325pt>
+File: assets/721/CD.png Graphic file (type png)
+<use assets/721/CD.png>
+Package pdftex.def Info: assets/721/CD.png  used on input line 383.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 383
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 383.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[37
+
+ <./assets/721/CD.png>]
+<assets/721/CvE.png, id=279, 1387.584pt x 704.6325pt>
+File: assets/721/CvE.png Graphic file (type png)
+<use assets/721/CvE.png>
+Package pdftex.def Info: assets/721/CvE.png  used on input line 393.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 393
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 393.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[38
+
+ <./assets/721/CvE.png>]
+<assets/721/comNLL.png, id=286, 1387.584pt x 704.6325pt>
+File: assets/721/comNLL.png Graphic file (type png)
+<use assets/721/comNLL.png>
+Package pdftex.def Info: assets/721/comNLL.png  used on input line 403.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 403
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 403.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[39
+
+ <./assets/721/comNLL.png>]
+<assets/721/NLL218.png, id=293, 1387.584pt x 704.6325pt>
+File: assets/721/NLL218.png Graphic file (type png)
+<use assets/721/NLL218.png>
+Package pdftex.def Info: assets/721/NLL218.png  used on input line 413.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 413
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 413.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[40
+
+ <./assets/721/NLL218.png>]
+<assets/721/NLL214.png, id=300, 1387.584pt x 704.6325pt>
+File: assets/721/NLL214.png Graphic file (type png)
+<use assets/721/NLL214.png>
+Package pdftex.def Info: assets/721/NLL214.png  used on input line 423.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 423
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 423.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[41
+
+ <./assets/721/NLL214.png>]
+<assets/721/LTE.png, id=307, 1387.584pt x 704.6325pt>
+File: assets/721/LTE.png Graphic file (type png)
+<use assets/721/LTE.png>
+Package pdftex.def Info: assets/721/LTE.png  used on input line 433.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 433
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 433.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[42
+
+ <./assets/721/LTE.png>]
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 446.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+ [43
+
+]
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 451.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+ [44
+
+]
+<assets/722/RD.png, id=326, 1387.584pt x 704.6325pt>
+File: assets/722/RD.png Graphic file (type png)
+<use assets/722/RD.png>
+Package pdftex.def Info: assets/722/RD.png  used on input line 461.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (38.91989pt too high) detected at line 461
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 461.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[45
+
+ <./assets/722/RD.png>]
+<assets/722/RDP.png, id=333, 1387.584pt x 704.6325pt>
+File: assets/722/RDP.png Graphic file (type png)
+<use assets/722/RDP.png>
+Package pdftex.def Info: assets/722/RDP.png  used on input line 471.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 471
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 471.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[46
+
+ <./assets/722/RDP.png>]
+<assets/722/CD.png, id=341, 1387.584pt x 704.6325pt>
+File: assets/722/CD.png Graphic file (type png)
+<use assets/722/CD.png>
+Package pdftex.def Info: assets/722/CD.png  used on input line 481.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 481
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 481.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[47
+
+ <./assets/722/CD.png>]
+<assets/722/CvE.png, id=348, 1387.584pt x 704.6325pt>
+File: assets/722/CvE.png Graphic file (type png)
+<use assets/722/CvE.png>
+Package pdftex.def Info: assets/722/CvE.png  used on input line 491.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 491
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 491.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[48
+
+ <./assets/722/CvE.png>]
+<assets/722/comNLL.png, id=355, 1387.584pt x 704.6325pt>
+File: assets/722/comNLL.png Graphic file (type png)
+<use assets/722/comNLL.png>
+Package pdftex.def Info: assets/722/comNLL.png  used on input line 501.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 501
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 501.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[49
+
+ <./assets/722/comNLL.png>]
+<assets/722/NLL218.png, id=363, 1387.584pt x 704.6325pt>
+File: assets/722/NLL218.png Graphic file (type png)
+<use assets/722/NLL218.png>
+Package pdftex.def Info: assets/722/NLL218.png  used on input line 511.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 511
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 511.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[50
+
+ <./assets/722/NLL218.png>]
+<assets/722/NLL214.png, id=370, 1387.584pt x 704.6325pt>
+File: assets/722/NLL214.png Graphic file (type png)
+<use assets/722/NLL214.png>
+Package pdftex.def Info: assets/722/NLL214.png  used on input line 521.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 521
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 521.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[51
+
+ <./assets/722/NLL214.png>]
+<assets/722/LTE.png, id=377, 1387.584pt x 704.6325pt>
+File: assets/722/LTE.png Graphic file (type png)
+<use assets/722/LTE.png>
+Package pdftex.def Info: assets/722/LTE.png  used on input line 531.
+(pdftex.def)             Requested size: 358.50229pt x 182.04968pt.
+
+Overfull \vbox (26.95996pt too high) detected at line 531
+ []
+
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 531.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+[52
+
+ <./assets/722/LTE.png>]
+File: assets/SD_Mines_Logo.png Graphic file (type png)
+<use assets/SD_Mines_Logo.png>
+Package pdftex.def Info: assets/SD_Mines_Logo.png  used on input line 540.
+(pdftex.def)             Requested size: 28.45137pt x 28.45274pt.
+ [53
 
 ]
 \tf@nav=\write6
@@ -1509,10 +1793,10 @@ Package rerunfilecheck Info: File `sealants_report.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 26315 strings out of 477985
- 529911 string characters out of 5840057
+ 26499 strings out of 477985
+ 533071 string characters out of 5840057
  1859388 words of memory out of 5000000
- 45895 multiletter control sequences out of 15000+600000
+ 46035 multiletter control sequences out of 15000+600000
  528300 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,14n,122p,1882b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1524,10 +1808,10 @@ sbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
 /share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-di
 st/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf-dist/fonts/type1/
 public/cm-super/sfss1095.pfb>
-Output written on sealants_report.pdf (33 pages, 1936050 bytes).
+Output written on sealants_report.pdf (53 pages, 3259293 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 71 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 459 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

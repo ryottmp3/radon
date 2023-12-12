@@ -109,9 +109,12 @@
             $^{218}$Po and $^{210}$Po likely caused $^{210}$Po events to spill over\@
             into the $^{218}$Po ROI
     \end{itemize}
+
+    \hyperlink{721_Backup}{\beamerbutton{See Backup Slides for Run 721}}
 \end{frame}
 
 \begin{frame}{Rate vs. Time, Run 721}
+\label{RvT_721}
     \begin{figure}
         \begin{center}
             \includegraphics[width=0.9\textwidth]
@@ -124,21 +127,21 @@
 
 \begin{frame}{Run 722 Analysis}
     \begin{itemize}
-        \item Emanation Rate was determined to be \textbf{0.00 $^{+0.10}_{-0.00}$ mBq}.
-        \item This determination was based on the observed emanation rate of $^{214}$Po.
-        \item The $^{218}$Po rate wasn't used as poor resolution between the peaks of \@
-            $^{218}$Po and $^{210}$Po likely caused $^{210}$Po events to spill over\@
-            into the $^{218}$ ROI 
+        \item Emanation Rate was determined to be \textbf{0.177 $^{+0.096}_{-0.081}$ mBq}.
+        \item This determination was based on the combined rates $^{214}$Po and $^{218}$Po.
     \end{itemize}
+
+    \hyperlink{722_Backup}{\beamerbutton{See Backup Slides for Run 722}}
 \end{frame}
 
 \begin{frame}{Rate vs. Time, Run 722}
+\label{RvT_722}
     \begin{figure}
         \begin{center}
             \includegraphics[width=0.9\textwidth]
             {assets/722/RvT.png}
             \caption{$^{222}$Rn Emanation Rate: 
-            \textbf{0.00$^{+0.10}_{-0.00}$ mBq} (from $^{214}$Po rate)}
+            \textbf{0.177$^{+0.096}_{-0.081}$ mBq} (from combined rate)}
         \end{center}
     \end{figure}    
 \end{frame}
@@ -331,20 +334,210 @@
     \end{figure}
 \end{frame}
 
-\begin{frame}{Notes on Run 720 Analysis}
-    Run 720 exhibits low gain that appears to vary periodically.
+\begin{frame}{Notes on Run 721 Analysis}
+    Run 721 exhibits low gain that appears to vary periodically.
     Unfortunately, there is no environmental data to compare the shifts to.
     Several bins had to be cut due to high noise.
-    The low resolution exhibited by Run 720 gives way to $^{210}$Po events spilling over
+    The low resolution exhibited by Run 721 gives way to $^{210}$Po events spilling over
     into the $^{218}$Po ROI.
     Because of this, the $^{214}$Po rate alone was used to determine the emanation rate
-    for run 720.
-    Overall, Run 720 appears to be consistent with our backgrounds.
+    for run 721.
+    Overall, Run 721 appears to be consistent with our backgrounds.
 
-    \hyperlink{RvT_720}{\beamerbutton{Back to Rate vs Time Run 720}}
+    \hyperlink{RvT_721}{\beamerbutton{Back to Rate vs Time Run 721}}
 \end{frame}
 
+\begin{frame}{Run 721 Backup Slides}
+\label{721_Backup}
+    The following slides contain additional data and information regarding Run 721.
+\end{frame}
 
+\begin{frame}{Raw Data, Run 721}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/721/RD.png}
+            \caption{Run 721 exhibited both gain shift and areas of problematic noise}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Raw Data after Removing Bad Intervals, Run 721}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/721/RDP.png}
+            \caption{Gain is extremely low, resulting in poor data resolution}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Gain-Corrected Data, Run 721}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/721/CD.png}
+            \caption{Data has been corrected to center the 5.3 MeV $^{210}$Po peak at MCA channel 1000}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Counts vs. Energy, Run 721}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/721/CvE.png}
+            \caption{$^{210}$Po peak has poor resolution and bleeds into $^{218}$Po ROI}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Combined NLL, Run 721}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/721/comNLL.png}
+            \caption{This rate is not used because of the resolution problems discussed earlier}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{$^{218}$Po NLL, Run 721}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/721/NLL218.png}
+            \caption{This rate is artificially high because of spillage from the $^{210}$Po ROI}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{$^{214}$Po NLL, Run 721}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/721/NLL214.png}
+            \caption{This is the rate that was used to determine the emanation rate of Run 721}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Live Time Efficiency}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/721/LTE.png}
+            \caption{Detector had relatively little dead time}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Notes on Run 721 Analysis}
+    Run 721 exhibits low gain that appears to vary periodically.
+    Unfortunately, there is no environmental data to compare the shifts to.
+    Several bins had to be cut due to high noise.
+    The low resolution exhibited by Run 721 gives way to $^{210}$Po events spilling over
+    into the $^{218}$Po ROI.
+    Because of this, the $^{214}$Po rate alone was used to determine the emanation rate
+    for run 721.
+    Overall, Run 721 appears to be consistent with our backgrounds.
+
+    \hyperlink{RvT_721}{\beamerbutton{Back to Rate vs Time Run 721}}
+\end{frame}
+
+\begin{frame}{Run 722 Backup Slides}
+\label{722_Backup}
+    The following slides contain additional data and information regarding Run 722.
+\end{frame}
+
+\begin{frame}{Raw Data, Run 722}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/722/RD.png}
+            \caption{Run 722 exhibited such extreme gain shift that hours had to be removed to enable gain correction}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Raw Data after Removing Bad Intervals, Run 722}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/722/RDP.png}
+            \caption{Data exhibits less extreme gain shifts and is able to be gain corrected}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Gain-Corrected Data, Run 722}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/722/CD.png}
+            \caption{Data exibits relatively good resolution and no spillage is apparent}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Counts vs. Energy, Run 722}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/722/CvE.png}
+            \caption{Each peak exhibits good resolution}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Combined NLL, Run 722}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/722/comNLL.png}
+            \caption{This rate is used for the emanation rate for Run 722}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{$^{218}$Po NLL, Run 722}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/722/NLL218.png}
+            \caption{This rate is used to determine the combined rate}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{$^{214}$Po NLL, Run 722}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/722/NLL214.png}
+            \caption{This rate is used to determine the combined rate}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Live Time Efficiency}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/722/LTE.png}
+            \caption{Detector had relatively little dead time}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Notes on Run 722 Analysis}
+    Run 722 exhibits such extreme shifts in gain that peak finding was impossible without removing 
+    several hours of data.
+    However, there is better resolution and the combined rate was able to be utilized for this run.
+
+
+    \hyperlink{RvT_722}{\beamerbutton{Back to Rate vs Time Run 722}}
+\end{frame}
 
 
 
