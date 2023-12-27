@@ -15,9 +15,9 @@ then
 	echo "You need a single diectory."
 	echo "What Run Number is the Directory? (int) "
 	read runNum
-	echo "Making directory Run_$runNum "
-	mkdir Run_$runNum
-	mkdir Run_$runNum/A
+	echo "Making directory Run0$runNum "
+	mkdir Run0$runNum
+	mkdir Run0$runNum/A
 	echo "Done. "
 elif [ $sinRan == "range" ] || [ $sinRan == "Range" ]
 then
@@ -31,8 +31,8 @@ then
 	for (( num = $low ; num <= $high ; num++ ));
 	do
 		echo "Creating directory Run_$num and subdirectories. "
-		mkdir Run_$num
-		mkdir Run_$num/A
+		mkdir Run0$num
+		mkdir Run0$num/A
 	done
 	echo "Done. "
 else
