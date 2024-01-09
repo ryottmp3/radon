@@ -39,7 +39,7 @@
                     and bottom errors in order to provide a more conservative estimate.
             \end{itemize}
         \end{itemize}
-    Overall, this sample has an emanation rate sufficiently low for use in SuperCDMS
+    This sample has an emanation rate sufficiently low for use in SuperCDMS
 \end{frame}
 
 \begin{frame}{GE All-Purpose Silicone Sealant}
@@ -148,18 +148,30 @@
 
 \begin{frame}{Overview of GE Advanced Silicone Sealant Emanation}
     A sample of GE Advanced Silicone Sealant was emanated four times throughout late 2023.
+    
+    These runs resulted in a total of XXX Hours of useful assay data.
+    
 
 \end{frame}
 
+\begin{frame}{Run 730 Analysis}
+    \begin{itemize}
+        \item Emanation Rate was determined to be \textbf{0.001 $^{+0.013}_{-0.000}$ mBq}.
+        \item This determination was based on the combined rates $^{214}$Po and $^{218}$Po.
+    \end{itemize}
+    This run exhibited fair resolution between $^{21x}$Po event peaks.
 
-\begin{frame}{Rate vs. Time, Run 722}
+    \hyperlink{730_Backup}{\beamerbutton{See Backup Slides for Run 730}}
+\end{frame}
+
+\begin{frame}{Rate vs. Time, Run 730}
 \label{RvT_730}
     \begin{figure}
         \begin{center}
             \includegraphics[width=0.9\textwidth]
-            {assets/722/RvT.png}
+            {assets/730/RvT.png}
             \caption{$^{222}$Rn Emanation Rate: 
-            \textbf{0.177$^{+0.096}_{-0.081}$ mBq} (from combined rate)}
+            \textbf{0.001$^{+0.013}_{-0.000}$ mBq} (from combined rate)}
         \end{center}
     \end{figure}    
 \end{frame}
@@ -556,7 +568,99 @@
     \hyperlink{RvT_722}{\beamerbutton{Back to Rate vs Time Run 722}}
 \end{frame}
 
+\begin{frame}{Run 730 Backup Slides}
+\label{730_Backup}
+    The following slides contain additional data and information regarding Run 730.
+\end{frame}
 
+\begin{frame}{Raw Data, Run 730}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/730/RD.png}
+            \caption{Run 730 exhibited such extreme gain shift that hours had to be removed to enable gain correction}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Raw Data after Removing Bad Intervals, Run 730}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/730/RDP.png}
+            \caption{Data exhibits less extreme gain shifts and is able to be gain corrected}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Gain-Corrected Data, Run 730}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/730/CD.png}
+            \caption{Data exibits relatively good resolution and no spillage is apparent}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Counts vs. Energy, Run 730}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/730/CvE.png}
+            \caption{Each peak exhibits good resolution}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Combined NLL, Run 730}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/730/comNLL.png}
+            \caption{This rate is used for the emanation rate for Run 730}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{$^{218}$Po NLL, Run 730}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/730/NLL218.png}
+            \caption{This rate is used to determine the combined rate}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{$^{214}$Po NLL, Run 730}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/730/NLL214.png}
+            \caption{This rate is used to determine the combined rate}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Live Time Efficiency}
+    \begin{figure}
+        \begin{center}
+            \includegraphics[width=0.9\textwidth]
+            {assets/730/LTE.png}
+            \caption{Detector had relatively little dead time}
+        \end{center}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Notes on Run 730 Analysis}
+    Run 730 exhibits such extreme shifts in gain that peak finding was impossible without removing 
+    several hours of data.
+    However, there is better resolution and the combined rate was able to be utilized for this run.
+
+
+    \hyperlink{RvT_730}{\beamerbutton{Back to Rate vs Time Run 730}}
+\end{frame}
 
 
 
