@@ -1,0 +1,7 @@
+CES higher counts than bkgd
+
+we dont have precise CES blank rate
+
+transfer end time:
+	simply put it in in the analysis settings for the short term 
+	add in warning to assume transfer end time if not specified.
